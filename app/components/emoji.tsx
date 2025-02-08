@@ -21,6 +21,7 @@ import BotIconGrok from "../icons/llm-icons/grok.svg";
 import BotIconHunyuan from "../icons/llm-icons/hunyuan.svg";
 import BotIconDoubao from "../icons/llm-icons/doubao.svg";
 import BotIconChatglm from "../icons/llm-icons/chatglm.svg";
+import BotIconSpark from "../icons/llm-icons/spark.svg";
 
 export function getEmojiUrl(unified: string, style: EmojiStyle) {
   // Whoever owns this Content Delivery Network (CDN), I am using your CDN to serve emojis
@@ -55,7 +56,8 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
       modelName.startsWith("gpt") ||
       modelName.startsWith("chatgpt") ||
       modelName.startsWith("o1") ||
-      modelName.startsWith("o3")
+      modelName.startsWith("o3") ||
+      modelName.startsWith("dall-e")
     ) {
       LlmIcon = BotIconOpenAI;
     } else if (modelName.startsWith("gemini")) {
@@ -72,7 +74,7 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
       LlmIcon = BotIconDeepseek;
     } else if (modelName.startsWith("moonshot")) {
       LlmIcon = BotIconMoonshot;
-    } else if (modelName.startsWith("qwen")) {
+    } else if (modelName.startsWith("qwen") || modelName.startsWith("qwq")) {
       LlmIcon = BotIconQwen;
     } else if (modelName.startsWith("ernie")) {
       LlmIcon = BotIconWenxin;
@@ -80,10 +82,16 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
       LlmIcon = BotIconGrok;
     } else if (modelName.startsWith("hunyuan")) {
       LlmIcon = BotIconHunyuan;
-    } else if (modelName.startsWith("doubao")) {
+    } else if (modelName.startsWith("Doubao") || modelName.startsWith("ep")) {
       LlmIcon = BotIconDoubao;
     } else if (modelName.startsWith("glm")) {
       LlmIcon = BotIconChatglm;
+    } else if (
+      modelName.startsWith("general") ||
+      modelName.startsWith("pro") ||
+      modelName.startsWith("4.0")
+    ) {
+      LlmIcon = BotIconSpark;
     }
 
     return (
