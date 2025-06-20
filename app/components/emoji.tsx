@@ -59,6 +59,7 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
       modelName.startsWith("dalle") ||
       modelName.startsWith("o1") ||
       modelName.startsWith("o3") ||
+      modelName.startsWith("o4") ||
       modelName.startsWith("dall-e")
     ) {
       LlmIcon = BotIconOpenAI;
@@ -70,7 +71,10 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
       LlmIcon = BotIconClaude;
     } else if (modelName.includes("llama")) {
       LlmIcon = BotIconMeta;
-    } else if (modelName.startsWith("mixtral") || modelName.startsWith("codestral")) {
+    } else if (
+      modelName.startsWith("mixtral") ||
+      modelName.startsWith("codestral")
+    ) {
       LlmIcon = BotIconMistral;
     } else if (modelName.includes("deepseek")) {
       LlmIcon = BotIconDeepseek;
