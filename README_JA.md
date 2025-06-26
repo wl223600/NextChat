@@ -1,6 +1,14 @@
 <div align="center">
 <img src="./docs/images/ent.svg" alt="プレビュー"/>
 
+<<<<<<< HEAD
+=======
+<a href='https://302.ai/'>
+  <img src="./docs/images/302AI-banner-jp.jpg" width=400 alt="icon"/>
+</a>
+
+[302.AI](https://302.ai/) は、オンデマンドで支払うAIアプリケーションプラットフォームで、最も安全なAI APIとAIオンラインアプリケーションを提供します。 
+>>>>>>> 4d43fac1 (chore: add banners of 302.AI)
 
 <h1 align="center">NextChat</h1>
 
