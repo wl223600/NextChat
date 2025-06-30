@@ -2,6 +2,7 @@
 <img src="./docs/images/ent.svg" alt="プレビュー"/>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <a href='https://302.ai/'>
   <img src="https://github.com/user-attachments/assets/6cf24233-1010-43e0-9a83-a11159866175" width=400 alt="icon"/>
@@ -9,6 +10,8 @@
 
 [302.AI](https://302.ai/) は、オンデマンドで支払うAIアプリケーションプラットフォームで、最も安全なAI APIとAIオンラインアプリケーションを提供します。 
 >>>>>>> 4d43fac1 (chore: add banners of 302.AI)
+=======
+>>>>>>> 92532b2c (fix: update 302.AI banners in README files and standardize formatting)
 
 <h1 align="center">NextChat</h1>
 
