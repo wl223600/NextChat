@@ -14,7 +14,7 @@ export const EN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-pro-latest",
+      model: "gemini-2.0-flash",
       temperature: 0.3,
       max_tokens: 4000,
       presence_penalty: 0,
@@ -60,7 +60,7 @@ export const EN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-pro-latest",
+      model: "gemini-2.0-flash",
       temperature: 0.5,
       max_tokens: 4000,
       presence_penalty: 0,
@@ -86,7 +86,7 @@ export const EN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 0.5,
       max_tokens: 4000,
       presence_penalty: 0,
@@ -118,7 +118,7 @@ export const EN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-pro-latest",
+      model: "gemini-2.0-flash",
       temperature: 0.5,
       max_tokens: 4000,
       presence_penalty: 0,

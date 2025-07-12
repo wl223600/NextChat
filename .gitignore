@@ -49,3 +49,15 @@ masks.json
 
 # mcp config
 app/mcp/mcp_config.json
+
+# Private Plugins
+public/plugins.json
+public/plugins/news.json
+public/plugins/pubmedsearch.json
+public/plugins/timenow.json
+public/plugins/zhyunxi_if.json
+public/plugins/timezones.json
+public/plugins/arxivsearch.json
+public/plugins/duckduckgolite.json
+public/plugins/jina_r.json
+.eslintrc.json

@@ -1,17 +1,37 @@
 [
   {
-    "id": "dalle3",
-    "name": "Dalle3",
-    "schema": "https://ghp.ci/https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat-Awesome-Plugins/main/plugins/dalle/openapi.json"
-  },
-  {
     "id": "arxivsearch",
     "name": "ArxivSearch",
-    "schema": "https://ghp.ci/https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat-Awesome-Plugins/main/plugins/arxivsearch/openapi.json"
+    "schema": "https://chat.fatshibainu.me/_next/static/plugins/arxivsearch.json"
   },
   {
     "id": "duckduckgolite",
     "name": "DuckDuckGoLiteSearch",
-    "schema": "https://ghp.ci/https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat-Awesome-Plugins/main/plugins/duckduckgolite/openapi.json"
+    "schema": "https://chat.fatshibainu.me/_next/static/plugins/duckduckgolite.json"
+  },
+  {
+    "id": "jina_r",
+    "name": "Jina Reader",
+    "schema": "https://chat.fatshibainu.me/_next/static/plugins/jina_r.json"
+  },
+  {
+    "id": "pubmedsearch",
+    "name": "PubMedSearch",
+    "schema": "https://chat.fatshibainu.me/_next/static/plugins/pubmedsearch.json"
+  },
+  {
+    "id": "impactfactorquery",
+    "name": "ImpactFactorQuery",
+    "schema": "https://chat.fatshibainu.me/_next/static/plugins/zhyunxi_if.json"
+  },
+  {
+    "id": "newssearch",
+    "name": "NewsSearch",
+    "schema": "https://chat.fatshibainu.me/_next/static/plugins/news.json"
+  },
+  {
+    "id": "timeanddate",
+    "name": "TimeAndDate",
+    "schema": "https://chat.fatshibainu.me/_next/static/plugins/timenow.json"
   }
 ]

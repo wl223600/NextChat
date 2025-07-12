@@ -33,7 +33,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -59,7 +59,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -85,7 +85,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -111,7 +111,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -137,7 +137,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -163,7 +163,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -189,7 +189,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -256,7 +256,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-pro-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -288,7 +288,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 0.5,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -314,7 +314,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -347,7 +347,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -380,7 +380,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -438,7 +438,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -470,7 +470,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-pro-latest",
+      model: "gemini-2.0-flash",
       temperature: 0.5,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -496,7 +496,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -522,7 +522,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -548,7 +548,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 1,
       max_tokens: 6144,
       presence_penalty: 0,
@@ -567,14 +567,14 @@ export const CN_MASKS: BuiltinMask[] = [
     context: [
       {
         id: "eng2chs-0",
-        role: "user",
+        role: "system",
         content:
-          "你是经验丰富的翻译，请把以下学术文章段落翻译成中文，并同时充分考虑中文的语法、清晰、简洁和整体可读性，必要时，你可以修改整个句子的顺序以确保翻译后的段落符合中文的语言习惯。你需要翻译的第一段文本如下：",
+          "你是经验丰富的翻译，请把以下学术文章段落翻译成中文，并同时充分考虑中文的语法、清晰、简洁和整体可读性，必要时，你可以修改整个句子的顺序以确保翻译后的段落符合中文的语言习惯。你需要翻译的文本如下：",
         date: "",
       },
     ],
     modelConfig: {
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.0-flash",
       temperature: 0.5,
       max_tokens: 6144,
       presence_penalty: 0,
