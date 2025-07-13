@@ -337,9 +337,7 @@ export function showPlugins(provider: ServiceProvider, model: string) {
     provider == ServiceProvider.OpenAI ||
     provider == ServiceProvider.Azure ||
     provider == ServiceProvider.Moonshot ||
-    provider == ServiceProvider.ChatGLM ||
-    provider == ServiceProvider.Alibaba ||
-    provider == ServiceProvider.ByteDance
+    provider == ServiceProvider.OpenRouter
   ) {
     return true;
   }
@@ -347,6 +345,20 @@ export function showPlugins(provider: ServiceProvider, model: string) {
     return true;
   }
   if (provider == ServiceProvider.Google && !model.includes("vision")) {
+    return true;
+  }
+  if (
+    provider == ServiceProvider.Alibaba &&
+    (model.includes("qwen") || model.includes("deepseek"))
+  ) {
+    return true;
+  }
+  if (
+    provider == ServiceProvider.ByteDance &&
+    (model.includes("doubao-1.5") ||
+      model.includes("deepseek") ||
+      model.includes("doubao-seed"))
+  ) {
     return true;
   }
   return false;

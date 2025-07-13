@@ -64,7 +64,7 @@ export const DEFAULT_CONFIG = {
   models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
-    model: "gemini-2.0-flash-001" as ModelType,
+    model: "gemini-2.5-flash" as ModelType,
     providerName: "Google" as ServiceProvider,
     temperature: 0.5,
     top_p: 1,
@@ -74,8 +74,8 @@ export const DEFAULT_CONFIG = {
     sendMemory: true,
     historyMessageCount: 6,
     compressMessageLengthThreshold: 1024,
-    compressModel: "gpt-4o-mini",
-    compressProviderName: "OpenAI",
+    compressModel: "gemini-2.0-flash-lite",
+    compressProviderName: "Google",
     enableInjectSystemPrompts: true,
     template: config?.template ?? DEFAULT_INPUT_TEMPLATE,
     size: "1024x1024" as ModelSize,

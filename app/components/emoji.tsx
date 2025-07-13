@@ -53,47 +53,45 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
     const modelName = props.model.toLowerCase();
 
     if (
-      modelName.startsWith("gpt") ||
-      modelName.startsWith("chatgpt") ||
-      modelName.startsWith("dall-e") ||
-      modelName.startsWith("dalle") ||
-      modelName.startsWith("o1") ||
-      modelName.startsWith("o3") ||
-      modelName.startsWith("o4") ||
-      modelName.startsWith("dall-e")
+      modelName.includes("gpt") ||
+      modelName.includes("dall-e") ||
+      modelName.includes("dalle") ||
+      modelName.includes("o1") ||
+      modelName.includes("o3") ||
+      modelName.includes("o4")
     ) {
       LlmIcon = BotIconOpenAI;
-    } else if (modelName.startsWith("gemini")) {
+    } else if (modelName.includes("gemini")) {
       LlmIcon = BotIconGemini;
-    } else if (modelName.startsWith("gemma")) {
+    } else if (modelName.includes("gemma")) {
       LlmIcon = BotIconGemma;
-    } else if (modelName.startsWith("claude")) {
+    } else if (modelName.includes("claude")) {
       LlmIcon = BotIconClaude;
     } else if (modelName.includes("llama")) {
       LlmIcon = BotIconMeta;
     } else if (
-      modelName.startsWith("mixtral") ||
-      modelName.startsWith("codestral")
+      modelName.includes("mixtral") ||
+      modelName.includes("codestral")
     ) {
       LlmIcon = BotIconMistral;
     } else if (modelName.includes("deepseek")) {
       LlmIcon = BotIconDeepseek;
-    } else if (modelName.startsWith("moonshot")) {
+    } else if (modelName.includes("moonshot") || modelName.includes("kimi")) {
       LlmIcon = BotIconMoonshot;
-    } else if (modelName.startsWith("qwen") || modelName.startsWith("qwq")) {
+    } else if (modelName.includes("qwen") || modelName.includes("qwq")) {
       LlmIcon = BotIconQwen;
-    } else if (modelName.startsWith("ernie")) {
+    } else if (modelName.includes("ernie")) {
       LlmIcon = BotIconWenxin;
-    } else if (modelName.startsWith("grok")) {
+    } else if (modelName.includes("grok")) {
       LlmIcon = BotIconGrok;
-    } else if (modelName.startsWith("hunyuan")) {
+    } else if (modelName.includes("hunyuan")) {
       LlmIcon = BotIconHunyuan;
-    } else if (modelName.startsWith("doubao") || modelName.startsWith("ep-")) {
+    } else if (modelName.includes("doubao") || modelName.startsWith("ep-")) {
       LlmIcon = BotIconDoubao;
     } else if (
       modelName.includes("glm") ||
-      modelName.startsWith("cogview-") ||
-      modelName.startsWith("cogvideox-")
+      modelName.includes("cogview-") ||
+      modelName.includes("cogvideox-")
     ) {
       LlmIcon = BotIconChatglm;
     } else if (
